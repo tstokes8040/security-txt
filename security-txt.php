@@ -4,9 +4,10 @@
  * Description: Creates a security.txt file with contact info.
  * Plugin Name: Security TXT
  * Plugin URI:
- * Version: 0.0.1
- * @author  Tyler Stokes
- * @license GPLv3 or later
+ * Version: 1.0.0
+ * Author:  Tyler Stokes
+ * Author URI: https://tswebservices.com/
+ * License: GPLv3 or later
  * Text Domain: securitytxt
  * PHP Version: 7.0
  */
@@ -87,7 +88,7 @@ if ( ! function_exists('st_maybe_delete_options') ) {
 add_action( 'admin_menu', 'st_menu_item' );
 if ( ! function_exists('st_menu_item') ) {
 	function st_menu_item() {
-		add_submenu_page( 'tools.php', 'Security TXT', 'Security-TXT Options', 'manage_options', 'security-txt', 'securitytxt_form_func' );
+		add_submenu_page( 'tools.php', 'Security TXT', 'Security TXT', 'manage_options', 'security-txt', 'securitytxt_form_func' );
 		add_action( 'admin_init', 'register_securitytxt_settings' );
 	}
 }
