@@ -2,9 +2,9 @@
 /**
  * @package Securitytxt
  * Description: Creates a security.txt file with contact info.
- * Plugin Name: Security TXT
+ * Plugin Name: Security-TXT
  * Plugin URI:
- * Version: 1.0.2
+ * Version: 1.0.3
  * Author:  Tyler Stokes
  * Author URI: https://tswebservices.com/
  * License: GPLv3 or later

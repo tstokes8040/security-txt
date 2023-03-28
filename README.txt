@@ -1,5 +1,5 @@
 === security-txt ===
-Plugin Name: Security TXT
+Plugin Name: Security-TXT
 Tags: security, infosec, netsec, security.txt, disclosure, bug bounty
 Requires at least: 5.0
 Tested up to: 6.1.1
@@ -31,10 +31,10 @@ We welcome development to make this plugin even better! Create your [pull reques
 
 == Changelog ==
 
-= 1.0.2 =
+= 1.0.3 =
 * Initial release.
 
 == Upgrade Notice ==
 
-= 1.0.2 =
+= 1.0.3 =
 * Initial release.
