@@ -8,6 +8,7 @@
  * Author:  Tyler Stokes
  * Author URI: https://tswebservices.com/
  * License: GPLv3 or later
+ * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  * Text Domain: securitytxt
  * PHP Version: 7.0
  */

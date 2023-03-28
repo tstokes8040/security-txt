@@ -23,4 +23,4 @@ to discuss what you would like to change.
 
 ## License
 
-GPLv3 or later
+[GPLv3 or later](https://www.gnu.org/licenses/gpl-3.0.html)
