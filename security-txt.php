@@ -4,7 +4,7 @@
  * Description: Creates a security.txt file with contact info.
  * Plugin Name: Security TXT
  * Plugin URI:
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author:  Tyler Stokes
  * Author URI: https://tswebservices.com/
  * License: GPLv3 or later
