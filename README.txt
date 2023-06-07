@@ -2,8 +2,8 @@
 Plugin Name: Security-TXT
 Tags: security, infosec, netsec, security.txt, disclosure, bug bounty
 Requires at least: 5.0
-Tested up to: 6.1.1
-Stable tag: 6.1.1
+Tested up to: 6.2.2
+Stable tag: 1.0.4
 Requires PHP: 7.0
 License: GPLv3 or later
 License URI: https://github.com/tstokes8040/security-txt/blob/main/LICENSE.txt
@@ -31,10 +31,10 @@ We welcome development to make this plugin even better! Create your [pull reques
 
 == Changelog ==
 
-= 1.0.3 =
+= 1.0.4 =
 * Initial release.
 
 == Upgrade Notice ==
 
-= 1.0.3 =
+= 1.0.4 =
 * Initial release.
