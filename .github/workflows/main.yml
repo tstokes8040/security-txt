@@ -1,16 +1,21 @@
-name: Plugin asset/readme update
+name: Deploy to WordPress.org
 on:
   push:
-    branches:
-    - main
+    tags:
+    - "*"
 jobs:
-  trunk:
-    name: Push to trunk
+  tag:
+    name: New tag
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - name: WordPress.org plugin asset/readme update
-      uses: 10up/action-wordpress-plugin-asset-update@stable
+    - uses: actions/checkout@main
+    - name: Build
+      run: |
+        npm install
+        npm run build
+    - name: WordPress Plugin Deploy
+      uses: 10up/action-wordpress-plugin-deploy@stable
       env:
         SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
         SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+        SLUG: security-txt # optional, remove if GitHub repo name matches SVN slug, including capitalization
