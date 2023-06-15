@@ -1,6 +1,6 @@
 {
     "name": "security-txt",
-    "version": "1.054",
+    "version": "1.0.6",
     "author": "Tyler Stokes <tyler@tswebservices.com>",
     "license": "GPLv3 or later",
     "main": "security-txt.php",
